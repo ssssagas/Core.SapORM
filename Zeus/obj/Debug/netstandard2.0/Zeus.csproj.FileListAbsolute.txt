@@ -1,0 +1,17 @@
+C:/project/CODE/ABI/dev/Zeus/Zeus/bin/Debug/netstandard2.0/Zeus.deps.json
+C:/project/CODE/ABI/dev/Zeus/Zeus/bin/Debug/netstandard2.0/Zeus.dll
+C:/project/CODE/ABI/dev/Zeus/Zeus/obj/Debug/netstandard2.0/Zeus.csproj.CoreCompileInputs.cache
+C:/project/CODE/ABI/dev/Zeus/Zeus/obj/Debug/netstandard2.0/Zeus.AssemblyInfoInputs.cache
+C:/project/CODE/ABI/dev/Zeus/Zeus/obj/Debug/netstandard2.0/Zeus.AssemblyInfo.cs
+C:/project/CODE/ABI/dev/Zeus/Zeus/bin/Debug/netstandard2.0/Zeus.pdb
+C:/project/CODE/ABI/dev/Zeus/Zeus/obj/Debug/netstandard2.0/Zeus.dll
+C:/project/CODE/ABI/dev/Zeus/Zeus/obj/Debug/netstandard2.0/Zeus.pdb
+/Users/daipeng/Projects/Zeus/Zeus/bin/Debug/netstandard2.0/Zeus.deps.json
+/Users/daipeng/Projects/Zeus/Zeus/bin/Debug/netstandard2.0/Zeus.dll
+/Users/daipeng/Projects/Zeus/Zeus/bin/Debug/netstandard2.0/Zeus.pdb
+/Users/daipeng/Projects/Zeus/Zeus/obj/Debug/netstandard2.0/Zeus.csprojResolveAssemblyReference.cache
+/Users/daipeng/Projects/Zeus/Zeus/obj/Debug/netstandard2.0/Zeus.csproj.CoreCompileInputs.cache
+/Users/daipeng/Projects/Zeus/Zeus/obj/Debug/netstandard2.0/Zeus.AssemblyInfoInputs.cache
+/Users/daipeng/Projects/Zeus/Zeus/obj/Debug/netstandard2.0/Zeus.AssemblyInfo.cs
+/Users/daipeng/Projects/Zeus/Zeus/obj/Debug/netstandard2.0/Zeus.dll
+/Users/daipeng/Projects/Zeus/Zeus/obj/Debug/netstandard2.0/Zeus.pdb
