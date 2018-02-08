@@ -1,9 +1,0 @@
-C:\project\CODE\ABI\dev\Zeus\Zeus\bin\Release\netstandard2.0\Zeus.deps.json
-C:\project\CODE\ABI\dev\Zeus\Zeus\bin\Release\netstandard2.0\Zeus.dll
-C:\project\CODE\ABI\dev\Zeus\Zeus\bin\Release\netstandard2.0\Zeus.pdb
-C:\project\CODE\ABI\dev\Zeus\Zeus\obj\Release\netstandard2.0\Zeus.csprojResolveAssemblyReference.cache
-C:\project\CODE\ABI\dev\Zeus\Zeus\obj\Release\netstandard2.0\Zeus.csproj.CoreCompileInputs.cache
-C:\project\CODE\ABI\dev\Zeus\Zeus\obj\Release\netstandard2.0\Zeus.AssemblyInfoInputs.cache
-C:\project\CODE\ABI\dev\Zeus\Zeus\obj\Release\netstandard2.0\Zeus.AssemblyInfo.cs
-C:\project\CODE\ABI\dev\Zeus\Zeus\obj\Release\netstandard2.0\Zeus.dll
-C:\project\CODE\ABI\dev\Zeus\Zeus\obj\Release\netstandard2.0\Zeus.pdb
