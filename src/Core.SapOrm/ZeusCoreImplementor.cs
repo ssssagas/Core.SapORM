@@ -21,6 +21,15 @@ namespace Core.SapOrm
                 throw new ArgumentException("Insert method entity can not be null");
             return await connection.ExecuteAsync(sql, entity, transaction, commandTimeout, CommandType.Text);
         }
+        public async Task<int> InsertListAsync<T>(IDbConnection connection, List<T> list, IDbTransaction transaction = null, int? commandTimeout = default(int?)) where T : class
+        {
+            var sql = string.Empty;
+            if (list != null && list.Count > 0)
+                sql = SqlGenerator.GetInsertSql(GetTableName(list.FirstOrDefault()), GetPropertyList(list.FirstOrDefault()));
+            else
+                throw new ArgumentException("Insert method entity can not be null");
+            return await connection.ExecuteAsync(sql, list, transaction, commandTimeout, CommandType.Text);
+        }
         public async Task<T> GetByIdAsync<T>(IDbConnection connection, long id, ISort sort, IDbTransaction transaction = null, int? commandTimeout = default(int?)) where T : class, new()
         {
             var entity = new T();

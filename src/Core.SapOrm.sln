@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.SapOrm", "Core.SapOrm\Core.SapOrm.csproj", "{643E0B54-8D20-447D-AC13-FD4AFC7F2059}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Sap.ProjectBase", "Core.Sap.BaseService\Core.Sap.ProjectBase.csproj", "{4C12F288-E4F9-45F0-9524-2838E57F7E21}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{643E0B54-8D20-447D-AC13-FD4AFC7F2059}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{643E0B54-8D20-447D-AC13-FD4AFC7F2059}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{643E0B54-8D20-447D-AC13-FD4AFC7F2059}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C12F288-E4F9-45F0-9524-2838E57F7E21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C12F288-E4F9-45F0-9524-2838E57F7E21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C12F288-E4F9-45F0-9524-2838E57F7E21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C12F288-E4F9-45F0-9524-2838E57F7E21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

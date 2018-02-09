@@ -16,7 +16,13 @@ namespace Core.SapOrm
         {
             return await _zeusCoreImplementor.InsertAsync(connection, entity, transaction, commandTimeout);
         }
-
+        /// <summary>
+        /// 插入多条
+        /// </summary>
+        public static async Task<int> InsertListAsync<T>(this IDbConnection connection, List<T> list, IDbTransaction transaction = null, int? commandTimeout = default(int?)) where T : class
+        {
+            return await _zeusCoreImplementor.InsertAsync(connection, list, transaction, commandTimeout);
+        }
         /// <summary>
         /// 获取全部
         /// </summary>
@@ -45,10 +51,28 @@ namespace Core.SapOrm
         {
             return await _zeusCoreImplementor.UpdateAsync(connection, entity, transaction, commandTimeout);
         }
+        /// <summary>
+        /// 删除数据
+        /// </summary>
+        /// <returns>The async.</returns>
+        /// <param name="connection">Connection.</param>
+        /// <param name="id">Identifier.</param>
+        /// <param name="transaction">Transaction.</param>
+        /// <param name="commandTimeout">Command timeout.</param>
+        /// <typeparam name="T">The 1st type parameter.</typeparam>
         public static async Task<int> DeleteAsync<T>(this IDbConnection connection, long id, IDbTransaction transaction = null, int? commandTimeout = default(int?)) where T : class, new()
         {
             return await _zeusCoreImplementor.DeleteAsync<T>(connection, id, transaction, commandTimeout);
         }
+        /// <summary>
+        /// 获取条数
+        /// </summary>
+        /// <returns>The count async.</returns>
+        /// <param name="connection">Connection.</param>
+        /// <param name="list">List.</param>
+        /// <param name="transaction">Transaction.</param>
+        /// <param name="commandTimeout">Command timeout.</param>
+        /// <typeparam name="T">The 1st type parameter.</typeparam>
         public static async Task<int> GetCountAsync<T>(this IDbConnection connection, List<FieldPredicate> list, IDbTransaction transaction = null, int? commandTimeout = default(int?)) where T : class, new()
         {
             return await _zeusCoreImplementor.GetCountAsync<T>(connection, list, transaction, commandTimeout);
